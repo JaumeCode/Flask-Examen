@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+
+}
+
+#main{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(25, 62, 110);
+    
+    
+
+}
+
+#formulario{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 390px;
+    height: 500px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px black;
+    font-size: 15px;
+
+}
+
+#boton{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 15px;
+    font-style: bold;
+
+}
+
+
+input{
+
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(117, 117, 117);
+
+}
